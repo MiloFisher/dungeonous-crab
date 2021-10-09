@@ -450,6 +450,7 @@ function hitPlayer() {
 }
 
 function nextLevel() {
+  addScore(200, player.pos);
   play("hit");
   play("lucky");
   play("select");
